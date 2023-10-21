@@ -4,6 +4,7 @@ import About from '../pages/About'
 import Portfolio from '../pages/Portfolio';
 import Contact from '../pages/Contact';
 import Resume from '../pages/Resume';
+import projects from '../projects'; 
 
 export default function Body() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -14,7 +15,7 @@ export default function Body() {
       return <About />;
     }
     if (currentPage === 'Portfolio') {
-      return <Portfolio />;
+      return <Portfolio projects= {projects}/>;
     }
     if (currentPage === 'Contact') {
       return <Contact />;
