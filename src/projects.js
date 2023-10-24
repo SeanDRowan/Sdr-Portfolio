@@ -8,24 +8,24 @@ const projects = [
                 title:'Project-2: rate-my-tutor',
                 link:'https://serene-journey-47318-c81386755a3c.herokuapp.com/',
                 github:'https://github.com/OliveraDiaz/Rate-my-Tutor',
-                img:'public/images/rate-my-tutor.png',
+                img:'images/rate-my-tutor.png',
                            },{
                             title:'Weather-Dashboard',
                             link:'https://seandrowan.github.io/weather-Dashboard/',
                             github:'https://oliveradiaz.github.io/Concert-project1/',
-                            img:'public/images/253394814-d13c19f3-e655-4bf4-9969-2eed49bee19b.png',
+                            img:'images/253394814-d13c19f3-e655-4bf4-9969-2eed49bee19b.png',
                                        }
                                        ,{
                                         title:'Work Day Scheduler',
                                         link:'https://seandrowan.github.io/Work-day-Schedual/',
                                         github:'https://github.com/SeanDRowan/Work-day-Schedual',
-                                        img:'public/images/work-day.png',
+                                        img:'images/work-day.png',
                                                    }
                                                    ,{
                                                     title:'Note Taker',
                                                     link:'https://seandrowan.github.io/note_taker_app/',
                                                     github:'https://github.com/SeanDRowan/note_taker_app',
-                                                    img:'public/images/Screenshot 2023-10-24 155627.png',
+                                                    img:'images/Screenshot 2023-10-24 155627.png',
                                                                }
                                                                ,{
                                                                 title:'example3',
