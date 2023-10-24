@@ -1,4 +1,5 @@
-const projects = [{
+const projects = [
+    {
     title:'example1',
     link:'example1',
     img:'example1',
