@@ -2,16 +2,20 @@ import { useState } from 'react';
 import Form from 'react-bootstrap/Form';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
+import { FormControl } from 'react-bootstrap';
 
-function onBlur(props){
-  console.log(props.input)
-  if(props.input == undefined){
-
+function onBlur(){
+   const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+  console.log(FormControl.value)
+  
+return(
   <Modal
-  {...props}
-  size="lg"
-  aria-labelledby="contained-modal-title-vcenter"
-  centered
+  show={show}
+  onHide={handleClose}
+  backdrop="static"
+  keyboard={false}
 >
  <Modal.Header closeButton>
  <Modal.Title id="contained-modal-title-vcenter">
@@ -30,9 +34,8 @@ function onBlur(props){
  <Button onClick={props.onHide}>Close</Button>
 </Modal.Footer>
 </Modal>
-
+)
   }
-}
 
 
 export  function Contact() {
@@ -61,48 +64,15 @@ console.log()
     setInput3(e.target.input3);
   };
 
-    return (
-      <div>
-        <h1>Contact Me</h1>
-       
-        <form className="bucket-form" onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="Name"
-          value={input}
-          name="text"
-          className="bucket-input"
-          onChange={handleChange}
-        ></input>
-        <input
-          type="text"
-          placeholder="Email"
-          value={input2}
-          name="text2"
-          className="bucket-input2"
-          onChange={handleChange}
-        ></input>
-        <input
-          type="text"
-          placeholder="Message"
-          value={input3}
-          name="text3"
-          className="bucket-input3"
-          onChange={handleChange}
-        ></input>
-          <button className="bucket-button">Submit</button>
-        </form>
-        
-      
-      </div>
-    );
+   
   }
   function TextControlsExample() {
+    
     return (
       <Form>
           <Form.Group className="mb-3" controlId="Textarea1">
           <Form.Label>Name</Form.Label>
-          <Form.Control as="input" placeholder="Your Name"  onBlur={onBlur} />
+          <Form.Control as="input" type='text' placeholder="Your Name"  onBlur={onBlur} />
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Label>Email address</Form.Label>
@@ -110,7 +80,7 @@ console.log()
         </Form.Group>
         <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
           <Form.Label>Message</Form.Label>
-          <Form.Control as="textarea" rows={3} />
+          <Form.Control as="textarea" type='text' rows={3} />
         </Form.Group>
       </Form>
     );

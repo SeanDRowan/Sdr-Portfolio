@@ -4,7 +4,7 @@ export default function About() {
     return (
       <div>
         <h1>About Me</h1>
-        <img className ="Me" src="../../assets/IMG_0107.JPG" alt="Me" width="400" height="500" />
+        <img className ="Me" src="public\images\IMG_0107.JPG" alt="Me" width="400" height="500" />
         <p> My name is Sean Rowan and I am learning to program HTML, CSS, and JavaScript.</p>
       <p>Early in my teens, I realized how fascinated I was with the study of history. 
 
