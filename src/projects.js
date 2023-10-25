@@ -1,9 +1,9 @@
 const projects = [
     {
     title:'Project-1: Music Traveler',
-    link:'https://github.com/OliveraDiaz/Concert-project1',
-    github:'https://oliveradiaz.github.io/Concert-project1/',
-    img:'example1',
+    link:'https://oliveradiaz.github.io/Concert-project1/',
+    github:'https://github.com/OliveraDiaz/Concert-project1',
+    img:'assets/music traveler.png',
                },{
                 title:'Project-2: rate-my-tutor',
                 link:'https://serene-journey-47318-c81386755a3c.herokuapp.com/',

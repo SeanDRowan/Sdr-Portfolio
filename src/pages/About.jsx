@@ -5,8 +5,8 @@ export default function About() {
       <div>
         <h1>About Me</h1>
         <img className ="Me" src="assets\IMG_0107.JPG" alt="Me" width="400" height="500" />
-        <p> My name is Sean Rowan and I am learning to program HTML, CSS, and JavaScript.</p>
-      <p>Early in my teens, I realized how fascinated I was with the study of history. 
+        <p className="abtMe"> My name is Sean Rowan and I am learning to program HTML, CSS, and JavaScript.</p>
+      <p className="abtMe">Early in my teens, I realized how fascinated I was with the study of history. 
 
 
         Following this path, I pursued a degree in History and later graduated from Texas A&M San Antonio. 

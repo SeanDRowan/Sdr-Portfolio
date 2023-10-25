@@ -20,7 +20,7 @@ export default function Portfolio({ projects }) {
       
           <Card.Link href={project.link}><Card.Img  src={project.img} /></Card.Link>
           <button id ='btn'>
-          <Card.Link href={project.github}><Card.Img  src="assets/GitHub_Logo_White.png" /></Card.Link>
+          <Card.Link href={project.github}><Card.Img  src="assets\GitHub_Logo_White.png" /></Card.Link>
           </button>
             
           </Card>

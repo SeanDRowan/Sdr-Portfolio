@@ -1,11 +1,14 @@
 .body {
-    background: #f3e5f5;
+    background: #58255f;
     padding: 20px;
   }
-  
+  #root{
+    background-image:linear-gradient(to top,rgb(12, 12, 12),rgb(243, 243, 243));
+  }
   h1 {
     text-align: center;
     padding-bottom: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   .list-group-item{
     text-align: center;
@@ -13,13 +16,16 @@
   }
 
   #download{
-    background: #a109b8;
+    background: #a00eb6;
     padding:20px;
     border-style: hidden;
     text-decoration: solid;
   }
   #btn{
-    text-decoration: rgb(0, 0, 0);
     background: #8565d5;
     width: 100px;
+  }
+  .abtMe{
+    font-family: fantasy;
+    background:#87648b;
   }
