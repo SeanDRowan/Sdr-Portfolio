@@ -1,20 +1,26 @@
 .body {
-    background: #58255f;
+    background: #3e333f;
     padding: 20px;
+    
   }
   #root{
-    background-image:linear-gradient(to top,rgb(12, 12, 12),rgb(243, 243, 243));
+    background-image:linear-gradient(to bottom,rgb(0, 0, 0),rgb(97, 104, 232));
+    color: aliceblue;
   }
   h1 {
+   
     text-align: center;
     padding-bottom: 40px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .list-group-item{
     text-align: center;
     padding: 20px;
   }
-
+#Me{
+  clip-path: circle();
+  width: 25px;
+}
   #download{
     background: #a00eb6;
     padding:20px;
@@ -24,8 +30,19 @@
   #btn{
     background: #8565d5;
     width: 100px;
+    border-radius: 10px;
   }
   .abtMe{
-    font-family: fantasy;
-    background:#87648b;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    font-weight: 700;
+    color: aliceblue;
+   
   }
+  .HeadNav{
+   
+    padding-top: 50px;
+    background-image: url(/assets/header.jpg);
+  }
+
+  

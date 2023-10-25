@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Header from './Header';
 import NavTabs from './NavTabs';
 import About from '../pages/About'
 import Portfolio from '../pages/Portfolio';
@@ -28,9 +29,10 @@ export default function Body() {
 
   return (
     <div>
-      {/* We are passing the currentPage from state and the function to update it */}
+      <div className='HeadNav'>
+      <Header/>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      {/* Here we are calling the renderPage method which will return a component  */}
+      </div>
       <main className="mx-3">{renderPage()}</main>
     </div>
   );

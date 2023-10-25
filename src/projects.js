@@ -28,10 +28,10 @@ const projects = [
                                                     img:'assets/Screenshot 2023-10-24 155627.png',
                                                                }
                                                                ,{
-                                                                title:'example3',
-                                                                link:'example3',
-                                                                github:'https://oliveradiaz.github.io/Concert-project1/',
-                                                                img:'example3',
+                                                                title:'SQL employee tracker',
+                                                                link:'https://github.com/SeanDRowan/employee_tracker',
+                                                                github:'https://github.com/SeanDRowan/employee_tracker',
+                                                                img:'assets/employrr.png',
                                                                            }                                  
 ];
 export default projects;
