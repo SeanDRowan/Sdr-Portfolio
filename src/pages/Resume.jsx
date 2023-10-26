@@ -11,9 +11,12 @@ export default function Resume() {
               <li>JavaScript</li>
               <li>APIs</li>
               <li>Bootstrap</li>
+              <li>React</li>
+              <li>Mongo DB</li>
+              <li>SQL</li>
               <li>GIT</li></ul></div>
     
-      <button> <a  id='ba' href="https://drive.google.com/file/d/1HfN0Ok-7VbUK3thKDRNXwmUgh-44ob7-/view?usp=sharing">Download PDF</a></button>
+       <a  id='ba' href="https://drive.google.com/file/d/1HfN0Ok-7VbUK3thKDRNXwmUgh-44ob7-/view?usp=sharing">Download PDF</a>
       
       </div>
     );
